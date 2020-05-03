@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form method="post" action="" class="text-center" style="margin-bottom: 10px">
+        <h1 class="h3 mb-3 font-weight-normal">Please, enter request</h1>
+        <label for="grind_year">Enter year</label>
+        <input type="text" id="grind_year" name="grind_year">
+        <label for="grind_month">Enter month</label>
+        <input type="text" id="grind_month" name="grind_month">
+        <button value='send' name='send' class="btn btn-lg btn-primary" type="submit">send</button>
+    </form>
+{% endblock %}
